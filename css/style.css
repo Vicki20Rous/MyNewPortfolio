@@ -82,15 +82,13 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
     margin-bottom: 18px;
 }
 
-.slide-text p
-{
+.slide-text p {
 	font-size: 17px;
 }
 
 
 /* Projects CSS */
-.projects-div
-{
+.projects-div {
 	text-align: center;
     -webkit-transition: all .15s linear;
     -moz-transition: all .15s linear;
@@ -99,27 +97,24 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
     transition: all .15s linear;
 }
 
-.projects-div:hover
-{
+.projects-div:hover {
 	margin-top: -10px;
 }
 
 
-.projects-div i
-{
+.projects-div button {
 	font-size: 35px;
     font-weight: 300;
-    color: black;
+    background: black;
+    color: whitesmoke;
 }
 
-.projects-div h4
-{
+.projects-div h4 {
     color: #393939;
     font-weight: 400;
 }
 
-.projects-div p
-{
+.projects-div p {
     color: #636363;
     font-size: 17px;
     font-weight: 300;
@@ -131,26 +126,22 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
     background: #f8f8f8;
 }
 
-.services-box
-{
+.services-box {
     text-align: center;
     padding: 15px 0px;
 }
 
-.services-box i
-{
+.services-box i {
     line-height: 75px;
     font-size: 50px;
 }
 
-.services-box h4
-{
+.services-box h4 {
 	font-size: 18px;
     font-weight: 400;
 }
 
-.services-box p
-{
+.services-box p {
     font-size: 15px;
     font-weight: 300;
     line-height: 25px;
@@ -233,8 +224,7 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
     line-height: 36px;
 }
 
-.about-us-box h3
-{
+.about-us-box h3 {
 	font-size: 24px;
     font-weight: 400;
 }
