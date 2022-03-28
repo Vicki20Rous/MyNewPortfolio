@@ -59,16 +59,20 @@ body
 
 .top-right-menu-ul {
 	margin-top: 10px;
+    color: black;
 }
 
 /* Bootstrap CSS */
 .navbar-default {
+    font-size: 25px;
     background-color: transparent;
     border-color: transparent;
 }
 
+
+
 .navbar-nav li a {
-    color: #fff !important;
+    color: black;
 }
 
 .navbar-default .navbar-toggle {
@@ -83,8 +87,7 @@ body
     background-color: transparent;
 }
 
-.slide-text
-{
+.slide-text {
 	color:black;
 	margin-top: 80px;
 }
@@ -119,7 +122,7 @@ body
 .projects-div button {
 	font-size: 35px;
     font-weight: 300;
-    background: yellow;
+    background: #F0CB35;
     color: black;
 }
 
@@ -130,10 +133,15 @@ body
 }
 
 .projects-div p {
-    color: #636363;
+    color: black;
     font-size: 20px;
     font-weight: 300;
     line-height: 25px;
+}
+
+.projects-div a {
+    padding: 5px;
+    font-size: 20px;
 }
 
 
@@ -150,8 +158,31 @@ footer {
     line-height: 50px;
 }
 
+.footer-copyright {
+    font-size: 30px;
+}
+
 .footer-social  a {
     color: black;
+}
+
+.fa-github {
+    padding: 10px;
+    color: black;
+    background: #F0CB35;
+}
+
+.fa-linkedin {
+    padding: 10px;
+   background: #2e6da4;
+    color: whitesmoke;
+}
+
+.fa-google {
+    padding: 10px;
+    background: #EB3349;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #myBtn {
